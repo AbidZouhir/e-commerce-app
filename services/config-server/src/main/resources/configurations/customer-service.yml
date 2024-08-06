@@ -1,0 +1,17 @@
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  data:
+    mongodb:
+      username: zouhir
+      password: zouhir
+      host: localhost
+      port: 27017
+      database: customer
+      authentication-database: admin
+  application:
+    name: customer-service
+
+
+server:
+  port: 8090
