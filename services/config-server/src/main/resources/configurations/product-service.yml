@@ -17,7 +17,5 @@ spring:
     user: ${spring.datasource.username}
     password: ${spring.datasource.password}
 
-  application:
-    name: product-service
 server:
   port: 8050

@@ -9,8 +9,6 @@ spring:
       port: 27017
       database: customer
       authentication-database: admin
-  application:
-    name: customer-service
 
 
 server:
